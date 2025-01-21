@@ -1,0 +1,31 @@
+# if = Do some code only IF some condition is True
+#   Else do soemthing else
+
+age = int(input("Enter your age: "))
+
+if (age >= 18):
+    print("You are now signed up!")
+elif (age < 0):
+    print("You haven't been born yet")
+else:
+    print("Sorry, you must be 18+ to sign up")
+
+response = input("Would you like food (Y/N): ")
+
+if (response == "Y"):
+    print("Have some food!")
+else:
+    print("No food for you!")
+
+name = input("Enter your name: ")
+if (name == ""):
+    print("You did not type your name")
+else: 
+    print(f"Hello {name}!")
+
+for_sale = True
+
+if for_sale:
+    print("This item is for sale")
+else:
+    print("This item is NOT for sale")
